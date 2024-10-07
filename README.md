@@ -4,7 +4,6 @@ The tool can be used for generating insights about twitch streaming platform.
 
 ### How to run the solution
 
-Unzip the archive in ICWSM19_data.
 Use docker-compose up to start the application (I used Docker Desktop/Colima).
 When airflow webserver is up and running, it can be accessed on localhost 8080.
 From airflow webserver, the ETL task can be started manually.
