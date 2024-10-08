@@ -8,7 +8,7 @@ Use docker-compose up to start the application (I used Docker Desktop/Colima).
 When airflow webserver is up and running, it can be accessed on localhost 8080.
 From airflow webserver, the ETL task can be started manually.
 
-There are 3 almost identical DAGs: ETL_per_file to process data per file and ETL.py to combine source files and process as one. They were created to test different options, but are almost the same.
+There are 2 almost identical DAGs: ETL_per_file to process data per file and ETL.py to combine source files and process as one. They were created to test different options, but are almost the same.
 There is a problem that Airflow crashes when processing combined files, so ETL_per_file is a working script.
 
 Separate SQL queries are in SQL_queries.sql file
