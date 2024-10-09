@@ -78,7 +78,3 @@ def twitch_etl():
 with dag:
     run_etl_task = PythonOperator(task_id="run_etl_task", python_callable=twitch_etl)
     run_etl_task
-
-# optimize tables
-# download check wget
-#check presentation

@@ -74,8 +74,3 @@ def twitch_etl():
 with dag:
     run_etl_task = PythonOperator(task_id="run_etl_task", python_callable=twitch_etl)
     run_etl_task
-
-#TODO: draw data model+, connect to sql db and execute queries, add table constraints+, correct datatypes+ 
-# optimize tables
-# download check wget
-#check presentation
